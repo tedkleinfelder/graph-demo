@@ -1,24 +1,24 @@
 {
-    "name" : "graphDemo",
+    "name" : "graph-demo",
     "version" : "0.0.2",
     "description" : "A simple demo that constructs a tree from input data in text files.",
     "tags" : ["REST", "API", "db", "graph"],
     "author" : "Edmond Meinfelder <edmond.meinfelder@gmail.com>",
-    "homepage" : "https://github.com/edmondmeinfelder/neo4jSimple",
+    "homepage" : "https://github.com/edmondmeinfelder/graph-demo",
     "repository" : {
         "type" : "git",
-        "url" : "git@github.com:edmondmeinfelder/neo4jSimple.git"
+        "url" : "git@github.com:edmondmeinfelder/graph-demo.git"
     },
-    "bugs" : { "url" : "https://github.com/edmondmeinfelder/neo4jSimple/issues" },
+    "bugs" : { "url" : "https://github.com/edmondmeinfelder/graph-demo/issues" },
     "licenses" : [{
         "type" : "MIT",
-        "url" : "https://github.com/edmondmeinfelder/neo4jSimple/raw/master/LICENSE"
+        "url" : "https://github.com/edmondmeinfelder/graph-demo/raw/master/LICENSE"
     }],
-    "main" : "./lib/neo4jSimple.js",
+    "main" : "./lib/demo.js",
     "scripts" : {"test" : "node ./test/test.js"},
     "engines" : { "node" : ">=v0.6.0" },
     "dependencies" : {
-        "request" : "2.9.153"
+        "neo4jSimple" : "git+ssh://git@github.com:edmondmeinfelder/neo4jSimple.git"
     },
     "devDependencies": {
         "async" : "0.1.18"
