@@ -10,7 +10,6 @@ var categoryName = {};
 var neo4j;
 var rootId;
 
-
 function createNeo4jObj(cb) {
     neo4j = new neo4jSimple(function(err) {
         if (err) {

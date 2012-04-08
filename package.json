@@ -15,8 +15,8 @@
         "url" : "https://github.com/edmondmeinfelder/graph-demo/raw/master/LICENSE"
     }],
     "bin": {
-        "graph-demo": "./bin/graph-demo.js",
-        "graph-trav": "./bin/graph-trav.js"
+        "get-children": "./bin/get-children.js",
+        "graph-demo": "./bin/graph-demo.js"
     },
     "scripts" : {"test" : "node ./test/test.js"},
     "engines" : { "node" : ">=v0.6.0" },
