@@ -14,7 +14,10 @@
         "type" : "MIT",
         "url" : "https://github.com/edmondmeinfelder/graph-demo/raw/master/LICENSE"
     }],
-    "bin": "./bin/graph-demo.js",
+    "bin": {
+        "graph-demo": "./bin/graph-demo.js",
+        "graph-trav": "./bin/graph-trav.js"
+    },
     "scripts" : {"test" : "node ./test/test.js"},
     "engines" : { "node" : ">=v0.6.0" },
     "dependencies" : {
